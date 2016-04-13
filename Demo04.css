@@ -1,0 +1,18 @@
+.post{
+    width:300px;
+    margin:20px auto;
+    padding:5px;
+    border:1px solid #ccc;
+}
+
+p{
+    background:green;
+    color:#fff;
+    border:1px solid orange;
+    padding:5px;
+}
+
+.post>p:only-child{
+    border-width:2px;
+    background-color:#000;
+}

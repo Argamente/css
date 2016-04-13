@@ -1,0 +1,15 @@
+:lang(en-US){
+    quotes:'"' '"';
+}
+
+:lang(en) q {
+    background:red;
+}
+
+:lang(fr){
+    quotes:'<<' '>>';
+}
+
+:lang(fr) q {
+    background:green;
+}
